@@ -48,6 +48,7 @@ function checkPassword(
 }
 
 function hideErrorMessages(form: HTMLFormElement): void {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const formFields = form
     .querySelectorAll('.show-error-message')
     .forEach((item) => item.classList.remove());
