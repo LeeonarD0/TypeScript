@@ -31,7 +31,6 @@ const empresa1 = new Empresa('Basso', '43426543/12312.453');
 const colab1 = new Colaborador('leo', 'basso');
 const colab2 = new Colaborador('davide', 'basso');
 
-const empresa2 = new Empresa('DORITOS', '43521*312');
 empresa1.addColab(colab1);
 empresa1.addColab(colab2);
 
